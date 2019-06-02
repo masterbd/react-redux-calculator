@@ -5,7 +5,7 @@ import { store } from '../../index';
 import { connect } from 'react-redux';
 
 /**
- * Operations Component.
+ * Operations Class Component.
  */
 class Operations extends React.Component {
   iterators = {

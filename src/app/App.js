@@ -5,7 +5,7 @@ import Display from '../components/display/Display';
 import { connect } from 'react-redux';
 
 /**
- * App Component.
+ * App Class Component.
  */ 
 export default class App extends React.Component {
   // state = {

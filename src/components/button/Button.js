@@ -2,19 +2,18 @@ import React from 'react';
 import './Button.css';
 
 /**
- * Button Component.
- */ 
-export default class Button extends React.Component {
-  handleClick = () => {
-    this.props.clickEmitor({
-      type: this.props.type,
-      value: this.props.value
+ * Button Stateless Component.
+ */
+const Button = props => {
+  const handleClick = () => {
+    props.clickEmitor({
+      type: props.type,
+      value: props.value
     });
-  }
-
-  render() {
-    return (
-      <button className={`${this.props.type} ${this.props.type}${this.props.value}`} onClick={this.handleClick}>{this.props.value}</button>
-    );
-  }
+  }   
+  return (
+    <button className={`${props.type} ${props.type}${props.value}`} onClick={handleClick}>{props.value}</button>
+  );
 }
+
+export default Button;

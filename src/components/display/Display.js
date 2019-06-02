@@ -3,7 +3,7 @@ import './Display.css';
 import { connect } from 'react-redux';
 
 /**
- * Display Component.
+ * Display Class Component.
  */ 
 class Display extends React.Component {
   render() {
