@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Operations from '../components/operations/Operations';
 import Display from '../components/display/Display';
-import { connect } from 'react-redux';
 
 /**
  * App Class Component.

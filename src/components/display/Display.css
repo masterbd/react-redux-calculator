@@ -1,0 +1,25 @@
+.Display {
+  width: 250px;
+  display: flex;
+  position: relative;
+}
+
+.Display .SmallHistory {
+  position: absolute;
+  top: 5px;
+  right: 12px;
+  font-size: 14px;
+  width: 100%;
+  text-align: right;
+}
+
+.Display input {
+  width: 100%;
+  background: #2f2f2f;
+  color: #fff;
+  font-size: 30px;
+  text-align: right;
+  border: 0;
+  padding: 20px 10px 10px 10px;
+  border-radius: 10px 10px 0 0;
+}

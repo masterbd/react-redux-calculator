@@ -10,9 +10,10 @@ const Button = props => {
       type: props.type,
       value: props.value
     });
-  }   
+  }
+
   return (
-    <button className={`${props.type} ${props.type}${props.value}`} onClick={handleClick}>{props.value}</button>
+    <button className={`${props.type} ${props.type}${(props.value === '+') ? 'plus' : (props.value === '=') ? 'equal' : props.value}`} onClick={handleClick}>{props.value}</button>
   );
 }
 

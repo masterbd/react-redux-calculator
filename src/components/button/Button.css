@@ -1,0 +1,95 @@
+button.number {
+  min-width: 25%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #f2f2f2;
+  order: 3;
+  font-size: 20px;
+}
+
+button.number0 {
+  min-width: 75%;
+  order: 15;
+  border-radius: 0 0 0 10px;
+}
+
+button.number1 {
+  order: 11;
+}
+
+button.number2 {
+  order: 12;
+}
+
+button.number3 {
+  order: 13;
+}
+
+button.number4 {
+  order: 7;
+}
+
+button.number5 {
+  order: 8;
+}
+
+button.number6 {
+  order: 9;
+}
+
+button.number7 {
+  order: 3;
+}
+
+button.number8 {
+  order: 4;
+}
+
+button.number9 {
+  order: 5;
+}
+
+button.operation {
+  min-width: 50px;
+  height: 50px;
+  border-color: #a02b2c;
+  border-style: solid;
+  order: 100;
+  font-size: 20px;
+  background: #a92b2b;
+  color: #fff;
+}
+
+button.operationclear {
+  min-width: 75%;
+  order: 1;
+  background: #fff;
+  border: 0;
+  color: #2a2a2a;
+}
+
+button.operation- {
+  min-width: 25%;
+  order: 10;
+}
+
+button.operationx {
+  min-width: 25%;
+  order: 6;
+}
+
+button.operation÷ {
+  min-width: 25%;
+  order: 2;
+}
+
+button.operationequal {
+  min-width: 25%;
+  order: 16;
+  border-radius: 0 0 10px 0;
+}
+
+button.operationplus {
+  min-width: 25%;
+  order: 14;
+}
