@@ -1,5 +1,5 @@
 ## React Calculator with Redux
 
-Author: Dragos Andrei Bostan
+Author: Dragos
 
 Demo: https://masterbd-react-calculator.herokuapp.com/

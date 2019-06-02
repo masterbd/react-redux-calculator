@@ -75,8 +75,8 @@ class Operations extends React.Component {
   }
 
   _handleKeyboardInput = (e) => {
-    if (this.iterators.numbers.includes(parseFloat(e.key)))
-      this._onClickEmitor({ type: 'number', value: parseFloat(e.key) });
+    if (this.iterators.numbers.includes(e.key))
+      this._onClickEmitor({ type: 'number', value: e.key });
     else if (this.iterators.operations.includes(e.key))
       this._onClickEmitor({ type: 'operation', value: e.key });
     // Add Extra layers.
